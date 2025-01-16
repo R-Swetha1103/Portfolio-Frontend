@@ -1,0 +1,64 @@
+/* Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #a8d8f0, #c1e1f2); /* Light blue gradient */
+  padding: 10px 20px; /* Padding */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  position: fixed; /* Make header fixed */
+  top: 0; /* Align it to the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Keep it above other content */
+}
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    border-radius: 50%; /* Circular profile picture */
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between image and name */
+  }
+  
+  .profile-pic {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .nav {
+    flex-grow: 1; /* Allow navigation to grow */
+    text-align: center; /* Center the navigation */
+  }
+  
+  .nav ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    display: flex; /* Flex to align items horizontally */
+    justify-content: center; /* Center the list */
+  }
+
+  .nav ul li {
+    margin: 0 25px; /* Increased space between items */
+  }
+  
+  .nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark text color */
+    font-weight: 500; /* Medium font weight */
+  }
+  
+  .nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  .nav a:hover {
+    border-bottom: 2px solid blue; /* Underline effect on hover */
+  }
+  
+  

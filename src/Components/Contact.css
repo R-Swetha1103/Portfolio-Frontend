@@ -1,0 +1,63 @@
+/* Contact.css */
+.contact-section {
+    background: linear-gradient(to right, #a8d8f0, #c1e1f2); /* Light blue gradient */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Align contents */
+    align-items: flex-start;
+}
+
+.contact-details {
+    flex: 1; /* Allow this section to take available space */
+    margin-right: 20px; /* Space to separate from form */
+}
+
+.contact-header {
+    color: #007bff; /* Header color */
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin: 10px 0; /* Space between contact details */
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem; /* Space between icons */
+    margin-top: 1rem; /* Space above icons */
+  }
+  
+  .social-icons a {
+    color: inherit; /* Ensures the link's color inherits from parent */
+  }
+  
+
+.contact-form {
+    flex: 1; /* Allow form to take remaining space */
+    display: flex;
+    flex-direction: column; /* Stack form elements */
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0; /* Spacing around form elements */
+    padding: 12px; /* Padding for form elements */
+    border: 1px solid #ccc; /* Grey border */
+    border-radius: 5px; /* Rounded edges */
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #007bff; /* Blue button background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded edges */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+

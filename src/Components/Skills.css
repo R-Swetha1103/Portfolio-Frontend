@@ -1,0 +1,50 @@
+/* Skills.css */
+.skills-section {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #a8d8f0, #c1e1f2); /* Light blue gradient */
+    border-radius: 10px; /* Optional: to match corner style */
+}
+  
+.skills-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.skills-category {
+    margin-bottom: 40px;
+}
+  
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white; /* Card background */
+    transition: transform 0.3s;
+}
+  
+.skill:hover {
+    transform: scale(1.05); /* Hover scaling effect */
+}
+  
+.skill-icon {
+    width: 60px; /* Icon size */
+    height: auto;
+    margin-bottom: 5px;
+}

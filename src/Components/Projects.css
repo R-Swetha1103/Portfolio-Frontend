@@ -1,0 +1,94 @@
+/* Projects.css */
+
+.projects-section {
+    padding: 2rem;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .projects-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .projects-header {
+    font-size: 28px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+  
+  .project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 30%; /* Adjust the width to control the number of cards in a row */
+    min-height: 400px; /* Ensures all cards are the same height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s; /* Optional for hover effect */
+  }
+  
+  /* Projects.css */
+
+.project-image {
+    width: 400px; /* Ensures the image takes the full width of the card */
+    height: 300px; /* Set a fixed height for all images */
+    object-fit: cover; /* This maintains aspect ratio and fills the space */
+    border-radius: 8px; /* Keep the existing border radius */
+    margin-bottom: 1rem;
+  }
+  
+  
+  .project-buttons {
+    margin-top: auto;
+  }
+  
+  .project-card h3 {
+    text-align: center; /* Center align the h3 text */
+    margin: 1rem 0; /* Consistent space above and below */
+    flex-grow: 1; /* Allow the h3 to take available space */
+  }
+  
+  .project-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .project-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .project-card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .projects-row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .project-card {
+      width: 90%; /* Stacks cards on small screens */
+    }
+  }
+  
