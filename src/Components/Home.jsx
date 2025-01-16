@@ -55,7 +55,14 @@ const Home = ({ isDarkMode }) => {
           with diverse teams, and contribute to forward-thinking projects that
           inspire growth and innovation.
         </p>
-        <button className="about-button">More About Me</button>
+        <a
+          href="/SwethaR.pdf"  // Path relative to the public folder
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          More About Me
+        </a>
       </div>
       <div className="image-container">
         <img

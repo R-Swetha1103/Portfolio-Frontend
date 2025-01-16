@@ -106,20 +106,28 @@ h3 span{
 .text-container h1 {
   margin: 0; /* Remove default margins */
 }
-/* Dark theme styles */
-.dark-theme {
-  background-color: #121212; /* Dark background */
-  color: #ffffff; /* Light text color */
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;  /* Green background */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
-.dark-theme .highlight {
-  color: #bb86fc; /* Light purple color for highlights */
+.btn:hover {
+  background-color: #007bff;  /* Darker green on hover */
 }
 
-.dark-theme .about-button {
-  background-color: #3700b3; /* Dark button color */
+.btn:active {
+  background-color: #007bff;  /* Even darker on click */
 }
 
-.dark-theme .profile-image {
-  border: 2px solid #bb86fc; /* Optional border for profile image */
+.btn:focus {
+  outline: none;
 }
