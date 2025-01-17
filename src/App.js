@@ -16,7 +16,6 @@ const App = () => {
       <Projects />
       <Professional />
       <Contact />
-      {/* Other components */}
     </ThemeProvider>
   );
 };

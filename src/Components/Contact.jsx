@@ -14,7 +14,7 @@ const Contact = () => {
     setIsLoading(true); // Set loading to true when starting submission
 
     try {
-        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL || 'http://localhost:5003'}/send-email`, {
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL || 'https://portfolio-backend-1-e67m.onrender.com'}/send-email`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
